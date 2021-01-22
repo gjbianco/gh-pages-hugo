@@ -8,7 +8,8 @@ theme = "hugo-coder"
 
 paginate = 20
 
-pygmentsStyle = "b2"
+# pygmentsStyle = "b2"
+pygmentsStyle = "monokai"
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 
@@ -17,7 +18,7 @@ pygmentsCodeFencesGuessSyntax = true
 [params]
   author = "Guy Bianco IV"
   info = "developer, tinkerer, musician"
-  description = "Guy Bianco IV's personal website"
+  # description = "Guy Bianco IV's personal website"
   keywords = "blog,developer,personal"
   # avatarurl = "images/avatar.jpg"
   gravatar = "gjbiancoiv@gmail.com"
@@ -69,6 +70,14 @@ pygmentsCodeFencesGuessSyntax = true
   weight = 1
   url  = "posts/"
 [[menu.main]]
-  name = "About"
+  name = "Projects"
   weight = 2
-  url = "about/"
+  url  = "projects/"
+[[menu.main]]
+  name = "Code"
+  weight = 3
+  url = "https://github.com/gjbianco/"
+[[menu.main]]
+  name = "Photos"
+  weight = 4
+  url = "https://photo.guy.sh"
