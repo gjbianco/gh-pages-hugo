@@ -1,7 +1,7 @@
 ---
 title: 'mvr update: new version and Chrome support'
 date: 2018-02-16 21:35:42
-tags: mvr
+tags: [mvr]
 ---
 Last September,  I started working on a browser plugin to navigate reddit.
 
