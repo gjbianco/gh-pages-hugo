@@ -3,7 +3,7 @@ title: 'JavaScript: A Repair Guide'
 date: 2016-11-24 13:51:25
 tags:
 ---
-(Originally posted on the Red Hat Developers Blog: http://developers.redhat.com/blog/2016/04/27/javascript-a-repair-guide/)
+Originally posted on the [Red Hat Developers Blog](http://developers.redhat.com/blog/2016/04/27/javascript-a-repair-guide/)
 
 ## Introduction
 
