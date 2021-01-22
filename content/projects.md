@@ -2,6 +2,8 @@
 title: "Projects"
 date: 2021-01-22T00:01:40-05:00
 ---
+[kama](https://github.com/gjbianco/kama): CLI pomodoro timer written in Go.
+
 [game-genie](https://github.com/gjbianco/game-genie): JavaScript library for en/decoding Game Genie codes.
 
 [hubot-simple-attendance](https://github.com/gjbianco/hubot-simple-attendance): Hubot plugin to track who's in the office.
