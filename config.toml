@@ -17,28 +17,28 @@ pygmentsCodeFencesGuessSyntax = true
 [params]
   author = "Guy Bianco IV"
   info = "developer, tinkerer, musician"
-  description = "John Doe's personal website"
+  description = "Guy Bianco IV's personal website"
   keywords = "blog,developer,personal"
-  avatarurl = "images/avatar.jpg"
-  #gravatar = "john.doe@example.com"
+  # avatarurl = "images/avatar.jpg"
+  gravatar = "gjbiancoiv@gmail.com"
+
+  colorscheme = "dark"
+  hidecolorschemetoggle = false
 
   favicon_32 = "/img/favicon-32x32.png"
   favicon_16 = "/img/favicon-16x16.png"
 
-  footercontent = "Enter a text here."
-  hideFooter = false
+  # footercontent = "Enter a text here."
+  hideFooter = true
   hideCredits = false
   hideCopyright = false
   since = 2018
 
   # enableTwemoji = true
 
-  colorsheme = "auto"
-  hidecolorschemetoggle = false
-
-  customCSS = ["css/custom.css"]
-  customSCSS = ["scss/custom.scss"]
-  customJS = ["js/custom.js"]
+#   customCSS = ["css/custom.css"]
+#   customSCSS = ["scss/custom.scss"]
+#   customJS = ["js/custom.js"]
 
 [taxonomies]
   category = "categories"
@@ -48,7 +48,7 @@ pygmentsCodeFencesGuessSyntax = true
 
 # Social links
 [[params.social]]
-  name = "Github"
+  name = "GitHub"
   icon = "fa fa-github fa-2x"
   weight = 1
   url = "https://github.com/gjbianco/"
@@ -57,6 +57,11 @@ pygmentsCodeFencesGuessSyntax = true
   icon = "fa fa-twitter fa-2x"
   weight = 3
   url = "https://twitter.com/guy_bianco/"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 3
+  url = "https://www.linkedin.com/in/gjbiancoiv/"
 
 # Menu links
 [[menu.main]]
