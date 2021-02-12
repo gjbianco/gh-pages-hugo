@@ -1,7 +1,5 @@
 ---
-- name: 'github pages'
-
-  on:
+- on:
     push:
       branches:
         - main  # Set a branch to deploy
