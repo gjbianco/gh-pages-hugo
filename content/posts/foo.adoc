@@ -3,8 +3,6 @@ title: "Foo"
 date: 2021-02-11
 ---
 
-= test file
-
 some para
 
 == sub header
@@ -14,4 +12,9 @@ para 2
 [source,go]
 ----
 var foo = "main"
+----
+
+[source,js]
+----
+var foo = "main";
 ----

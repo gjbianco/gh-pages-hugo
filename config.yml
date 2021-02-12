@@ -1,0 +1,95 @@
+---
+baseURL: https://guy.sh
+title: Guy Bianco IV
+
+languageCode: en-us
+defaultContentLanguage: en
+
+theme: hugo-coder
+
+paginate: 20
+
+pygmentsStyle: monokai
+pygmentsCodeFences: true
+pygmentsCodeFencesGuessSyntax: true
+
+params:
+  author: Guy Bianco IV
+  info: developer, tinkerer, musician
+  # description: Guy Bianco IV's personal website
+  keywords: blog,developer,personal
+  gravatar: gjbiancoiv@gmail.com
+  # avatarurl: images/avatar.jpg
+
+  colorscheme: dark
+  hidecolorschemetoggle: false
+
+  favicon_32: /img/favicon-32x32.png
+  favicon_16: /img/favicon-16x16.png
+
+  # footercontent: Enter a text here.
+  hideFooter: false
+  hideCredits: true
+  hideCopyright: false
+  since: 2016
+
+  # enableTwemoji: true
+  # customCSS: ["css/custom.css"]
+  # customSCSS: ["scss/custom.scss"]
+  # customJS: ["js/custom.js"]
+
+  social:
+  - name: GitHub
+    icon: fa fa-github fa-2x
+    weight: 1
+    url: https://github.com/gjbianco/
+  - name: Twitter
+    icon: fa fa-twitter fa-2x
+    weight: 3
+    url: https://twitter.com/guy_bianco/
+  - name: LinkedIn
+    icon: fa fa-linkedin fa-2x
+    weight: 3
+    url: https://www.linkedin.com/in/gjbiancoiv/
+
+taxonomies:
+  category: categories
+  series: series
+  author: authors
+  tag: tags
+
+
+# Menu links
+menu:
+  main:
+  - name: Blog
+    weight: 1
+    url : posts/
+  - name: Projects
+    weight: 2
+    url : projects/
+  - name: Code
+    weight: 3
+    url: https://github.com/gjbianco/
+  - name: Photos
+    weight: 4
+    url: https://photo.guy.sh
+
+markup:
+  asciidocext:
+    # backend: html5
+    # workingfoldercurrent: false
+    # trace: true
+    # verbose: true
+    attributes:
+      source-highlighter: pygments
+      pygments-css: style
+      pygments-style: monokai
+      # includedir: include
+      # icons: font
+      # experimental: true
+      # sectlinks: false
+      # sectanchors: false
+      # source-highlighter: rouge
+      # rouge-css: style
+      # rouge-style: github
