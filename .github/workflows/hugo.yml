@@ -25,7 +25,7 @@ jobs:
         with:
           ruby-version: 2.7
 
-      - run: gem install asciidoctor
+      - run: gem install asciidoctor pygments.rb
 
       - name: Run Hugo
         run: |
