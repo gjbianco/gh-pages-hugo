@@ -25,11 +25,11 @@ jobs:
         with:
           ruby-version: 2.7
 
-      - run: gem install asciidoctor
+      - run: gem install asciidoctor pygments.rb
 
       - name: Run Hugo
         run: |
-          alias asciidoctor="asciidoctor --attribute=experimental=true --attribute=icons=font"
+          alias asciidoctor="asciidoctor --attribute=experimental=true --attribute=icons=font --source-highlighter=pygments"
           hugo --minify
 
       - name: Deploy
